@@ -1,0 +1,13 @@
+* {
+color: red;
+}
+
+header h1 {
+    color:lightgoldenrodyellow;
+    border-color:red;
+    background-color: none;
+}
+
+.fondo_title {
+    border-color: black;
+}
