@@ -1,7 +1,85 @@
-header figure {
-    width: 600 px;
+* {
+    box-sizing: border-box;
 }
 
-.fondo {
-    width: 300 px;
+header {
+
+}
+
+header h1 {
+    color:aliceblue;
+    background-color: black;
+
+}
+
+div {
+    height: 215px;
+    width: 1065px;
+    background-color: blueviolet;
+}
+
+div article {
+    background-color: gray;
+    border: 2px solid red;
+    display:inline;
+    height: 210px;
+    width: 1000px;
+}
+
+article h2 {
+    display:inline-block;
+    float:left;
+    color:brown;
+    font-size: 50px;
+    margin: 2px;
+    width: 800px;
+    height: 200px;
+}
+
+article img {
+    display: inline;
+    border: 2px solid black;
+    float: right;
+    width: 200;
+}
+
+nav {
+    display:inline-block;
+    float:left;
+    width: 200px;
+    height: 300px;
+    padding: 2px;
+} 
+
+nav a {
+    display: block;
+    color: yellow;;
+    background-color: brown;
+    height: 90px;
+    width: 200px;
+    font-size: 30px;
+}
+
+section {
+    float:right;
+    background-color: red;
+    height: 300px;
+    width: 800px;
+}
+
+
+section h2 {
+    font-size: 20px;
+    color: yellow;
+    }
+
+section h3 {
+
+font-size: 20px;
+    color: yellow;
+}
+
+section p {
+    color:white;
+    font-size: 10px;
 }
