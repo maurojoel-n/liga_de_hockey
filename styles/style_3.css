@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    border: 0px;
+    margin:0px;
+}
+
+head {
+    width: 100%;
+}
+
+.fondo {
+    width: 50%;
+    position:absolute;
+    top: 100px;
+    left: 49%;
+    opacity: 0.6;
+    filter: grayscale(1);
+}
+
+h1 {
+    height: 20%;
+    width: 60%;
+    font-size: 80px;
+    background-color: transparent;
+    position: absolute;
+    top: 270px;
+    text-align: center;
+    text-shadow: gray 50px 20px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.barra {
+    color:aliceblue;
+    font-size: 30px;
+    height: 65px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    top: 600px;
+}
+
+.barra h2 {
+    padding-left: 30px;
+    text-align: center;
+}
+
+.logo {
+    position: absolute;
+    top: -580px;
+    left: 30px;
+    width: 10%;
+    border: 3px solid gray;
+}
+
+nav {
+    height: 20px;
+    width: 30%;
+    text-align: right;
+    background-color: transparent;
+    position: absolute;
+    top: 20px;
+    left: 1030px;
+}
+
+.navegador {
+    background-color: lightblue;
+    height: 12px;
+    display: inline;
+    padding: 2px;
+    border-top: 4px solid black;
+    border-left: 4px solid black;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    text-decoration: none; 
+}
+
+.info {
+    background-color: lightblue;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    top: 600px;
+}
+
+.info h2 {
+    color: black;
+    font-size: 40px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.articulo h2 {
+    color: black;
+    font-size: 40px;
+}
+
+.articulo h3 {
+    color: blue;
+    font-size: 40px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.articulo p {
+    color: black;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.info1 {
+    background-color: lightblue;
+    width: 100%;
+    height: 230px;
+    position: relative;
+    bottom: -600px;
+}
+
+.info1 h2 {
+    padding-left: 20px;
+    color: white;
+font-size: 40px;
+}
+
+.info1 p {
+    padding-left: 20px;
+    font-size: 30px;
+
+}
+
+.info2 {
+    background-color: lightblue;
+    width: 100%;
+    height: 200px;
+    position: relative;
+    bottom: -600px;    
+}
+
+.info2 h2 {
+    padding-left: 20px;
+    color: white;
+    font-size: 40px;
+}
+
+.info2 p {
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+.info3 {
+    background-color: lightblue;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    bottom: -600px;
+}
+
+.info3 h2 {
+    padding-left: 20px;
+    color: white;
+    font-size: 40px;
+}
+
+.info3 p {
+    padding-left: 20px;
+    font-size: 30px;
+}
