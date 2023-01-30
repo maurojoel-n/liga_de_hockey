@@ -98,14 +98,14 @@ nav {
 }
 
 .articulo h3 {
-    color: black;
+    color: blue;
     font-size: 40px;
     padding-top: 10px;
     padding-left: 10px;
 }
 
 .articulo p {
-    color: yellow;
+    color: black;
     font-size: 30px;
     padding-top: 10px;
     padding-left: 10px;
