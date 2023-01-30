@@ -48,16 +48,15 @@ h1 {
 
 nav {
     height: 120px;
-    width: 100%;
-    background-color: none;
+    width: 53%;
+    background-color: transparent;
     position: absolute;
     top: 100px;
-    left: 700px;
+    right: 5px;
 }
 
 .navegador {
     background-color: brown;
-    height: 33,3%;
     display: inline;
     padding: 30px;
     text-align: center;

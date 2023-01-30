@@ -55,7 +55,6 @@ nav {
 }
 
 .navegador {
-    height: 33,3%;
     display: block;
     padding: 30px;
     text-align: center;
@@ -124,7 +123,7 @@ font-size: 40px;
 }
 
 .info2 h2 {
-    color: black;
+    color: white;
     font-size: 40px;
     padding-top: 10px;
     padding-left: 10px;
