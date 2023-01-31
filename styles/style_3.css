@@ -5,8 +5,10 @@
     margin:0px;
 }
 
-head {
+.header {
+    height: 800px;
     width: 100%;
+    background-color: pink;
 }
 
 .fondo {
