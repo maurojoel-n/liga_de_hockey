@@ -135,7 +135,6 @@ h1 {
 .contactos {
     display: flex;
     flex-direction: row;
-    /* flex-wrap: wrap; */
     justify-content: space-between;
 }
 
@@ -188,4 +187,13 @@ align-items: end;
     width: 180px;
     display: flex;
     justify-content: center;
+}
+
+.titulo-form {
+    color: rgb(13, 92, 70); 
+    font-size: 20px;
+}
+
+.titulocampo {
+    font-size: 20px;
 }
