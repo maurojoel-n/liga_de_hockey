@@ -122,6 +122,12 @@ h1 {
     font-size: 20px;
 }
 
+.lista {
+    width: 95vw;
+    color: black;
+    font-size: 20px;  
+}
+
 .parrafos p {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -196,4 +202,9 @@ align-items: end;
 
 .titulocampo {
     font-size: 20px;
+}
+
+.conjunto-campo {
+    padding-top: 5px;
+    padding-top: 5px;
 }

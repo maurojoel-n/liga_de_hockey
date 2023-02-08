@@ -23,7 +23,7 @@
         <img src="./assets/src/Logo.png" class="logo" alt="logo_DHL">
     </section>
 
-    <main class="container-nav">
+    <main class="container">
         <nav class="nav-bar">
             <a href= "./index.html" class="navegador">Home</a>
             <a href="./about.html" class="navegador">About MDHL</a>
@@ -34,7 +34,7 @@
         </nav>
 <section class="info">
     <form action="./assets/show_data.html" method="get" >
-        <fieldset>
+        <fieldset class="conjunto-campo">
             <legend class="titulo-form">Personal Information</legend>
             <label for="playername" class="titulocampo">Player´s First Name:</label>
             <input type="text" name="playername" id="playername">
@@ -55,7 +55,7 @@
             <input type="date" name="bday" id="bday">
         </fieldset>    
 
-        <fieldset>   <legend class="titulo-form">Gender</legend> 
+        <fieldset class="conjunto-campo">   <legend class="titulo-form">Gender</legend> 
             <label class="titulocampo" for="male">Male</label>
             <input type="radio" name="gender" id="male">
         
@@ -63,7 +63,7 @@
             <input type="radio" name="gender" id="female">
         </fieldset>
 
-        <fieldset> <legend class="titulo-form">Grade</legend>
+        <fieldset class="conjunto-campo"> <legend class="titulo-form">Grade</legend>
 
             <label class="titulocampo" for="pre">Pre-School</label>
             <input type="radio" name="grade" id="pre">
@@ -85,7 +85,7 @@
             
         </fieldset>
 
-        <fieldset> <legend class="titulo-form">Whitch elementary school do you live near?</legend>
+        <fieldset class="conjunto-campo"> <legend class="titulo-form">Whitch elementary school do you live near?</legend>
             <select name="schools" id="schools-select">
                 <option class="titulocampo" value="">Select to school</option>
                 <option class="titulocampo" value="school1">AJ Katzenmaier</option>
@@ -97,7 +97,7 @@
             </select>
         </fieldset>    
 
-        <fieldset> <legend class="titulo-form">What position(s) do you normally play? (check all that apply)</legend>
+        <fieldset class="conjunto-campo"> <legend class="titulo-form">What position(s) do you normally play? (check all that apply)</legend>
 
             <input type="checkbox" name="grade" id="pre" value="">
             <label class="titulocampo" for="pre">Fordard</label>
@@ -113,7 +113,7 @@
 
         </fieldset>
 
-        <fieldset> <legend class="titulo-form">Uniform Size:</legend>
+        <fieldset class="conjunto-campo"> <legend class="titulo-form">Uniform Size:</legend>
 
             <label class="titulocampo" for="ysmall">Youth-Small</label>
             <input type="radio" name="size" id="ysaml">
@@ -138,9 +138,9 @@
 
         </fieldset>
 
-        <fieldset>
+        <fieldset class="conjunto-campo">
             <legend class="titulo-form">Permision to Play</legend>
-            <label class="titulocampo" for="">I, the parent or guardian of the minor registrant, agree that the registrant and I will adide by
+            <label class="titulocampo campolargo" for="">I, the parent or guardian of the minor registrant, agree that the registrant and I will adide by
                 all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of the physical
                 injury associated width the hockey and in consideration for the "League" accepting the registrant for its
                 hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their emmployees
@@ -150,14 +150,15 @@
                 the above. In addition, by signing below I also acknowledge  that I have read the calcellation policy and agree to
                 its terms.
             </label>
+        </fieldset>
 
-            <fieldset>
+            <fieldset class="conjunto-campo">
                 <legend class="titulo-form">Parent or Guardian Information</legend>
-                <label class="titulocampo" for="parent">Parent or Guardian:</label>
+                <label class="titulocampo" for="parent">Complete Name:</label>
                 <input type="text" name="parent" id="parent">
 
                 <label class="titulocampo" for="date-registration">Date to Registration</label>
-            <input type="date" name="date-registration" id="date-registration">
+                <input type="date" name="date-registration" id="date-registration">
 
             </fieldset>
             
