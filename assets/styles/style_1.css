@@ -5,19 +5,15 @@
     margin:0px;
 }
 
-head {
-    width: 100%;
-    margin: 2px;
-}
+
 
 .fondo {
-    width: 100%;
-    height: 100%;
-}
+    width: 300px;
+    }
 
 h1 {
     width: 100%;
-    font-size: 80px;
+    font-size: 50px;
     position: absolute;
     top: 30px;
     text-align: left;
@@ -27,13 +23,14 @@ h1 {
 .barra {
     color:aliceblue;
     font-size: 30px;
-    height: 65px;
+    height: 80px;
     background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .barra h2 {
-    padding-left: 30px;
-    width: 70%;
     text-align: center;
 }
 
@@ -46,30 +43,27 @@ h1 {
 }
 
 nav {
-    display: inline-block;
-    height: 600px;
+    display: flex;
     width: 20%;
-    background-color: brown;
-    position: relative;
-    top: 100px;
+   
+    
 }
 
 .navegador {
     display: block;
-    padding: 30px;
+    padding: 5px;
     text-align: center;
-    color: yellow;
-    font-size: 50px;
+    color: rgba(211, 214, 150, 0.623);
+    font-size: 25px;
     text-decoration: none;
+    
 }
 
 .info {
     background-color: blueviolet;
-    width: 80%;
-    height: 600px;
-    float:right;
-    position: relative;
-    top: -500px;
+    flex-grow: 5;
+    align-self: stretch;
+    
 }
 
 .info h2 {
@@ -152,4 +146,19 @@ font-size: 40px;
 .info3 p {
     padding-left: 20px;
     font-size: 25px;
+}
+
+.container {
+    display: flex;
+    min-height: calc(100vh - 280px);
+    background-color: brown;
+}
+
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 300px;
+    /* align-self: stretch; */   
 }
