@@ -1,5 +1,3 @@
-@import url(https://fonts.google.com/specimen/Open+Sans?query=open+sans);
-
 * {
     background-color: whitesmoke;
     box-sizing: border-box;
@@ -220,6 +218,7 @@ align-items: end;
     width: 100vw;
     transition: all 0.5s;
   }
+
   #modal iframe {
     width: 60%;
     height: 40%;
@@ -238,7 +237,6 @@ align-items: end;
   
 #mostrar-modal + label {
     background: whitesmoke;
-    display: table;
     color: black;
     cursor: pointer;
 }
@@ -252,12 +250,14 @@ align-items: end;
 }
 
 #mostrar-modal:checked ~ #cerrar-modal + label {
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
   
   #cerrar-modal {
     display: none;
-  }
+}
+
   #cerrar-modal + label {
     position: absolute;
     top: 1em;
@@ -275,9 +275,619 @@ align-items: end;
     display: none;
     transition: all 0.5s;
   }
+
   #cerrar-modal:checked ~ #modal {
     top: -100vh;
   }
+
   #cerrar-modal:checked + label {
+    display: none;
+  }
+
+  #modal2 {
+    background: rgba(0, 0, 0, 0.9);
+    color: whitesmoke;
+    position: fixed;
+    top: -100vh;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    transition: all 0.5s;
+  }
+
+  #modal2 iframe {
+    width: 60%;
+    height: 40%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    font-size: 1.5em;
+    }
+  
+#mostrar-modal2 {
+    display: none;
+  }
+  
+#mostrar-modal2 + label {
+    background: whitesmoke;
+    color: black;
+    cursor: pointer;
+}
+
+#mostrar-modal2 + label:hover {
+    background: rgba(250, 190, 80, 0.486);
+}
+  
+#mostrar-modal2:checked ~ #modal2 {
+    top: 0;
+}
+
+#mostrar-modal2:checked ~ #cerrar-modal2 + label {
+    display: flex;
+    flex-direction: column;
+}
+  
+  #cerrar-modal2 {
+    display: none;
+}
+
+  #cerrar-modal2 + label {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    z-index: 100;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    background: tomato;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    display: none;
+    transition: all 0.5s;
+  }
+
+  #cerrar-modal2:checked ~ #modal2 {
+    top: -100vh;
+  }
+
+  #cerrar-modal2:checked + label {
+    display: none;
+  }
+
+  #modal3 {
+    background: rgba(0, 0, 0, 0.9);
+    color: whitesmoke;
+    position: fixed;
+    top: -100vh;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    transition: all 0.5s;
+  }
+
+  #modal3 iframe {
+    width: 60%;
+    height: 40%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    font-size: 1.5em;
+    }
+  
+#mostrar-modal3 {
+    display: none;
+  }
+  
+#mostrar-modal3 + label {
+    background: whitesmoke;
+    color: black;
+    cursor: pointer;
+}
+
+#mostrar-modal3 + label:hover {
+    background: rgba(250, 190, 80, 0.486);
+}
+  
+#mostrar-modal3:checked ~ #modal3 {
+    top: 0;
+}
+
+#mostrar-modal3:checked ~ #cerrar-modal3 + label {
+    display: flex;
+    flex-direction: column;
+}
+  
+  #cerrar-modal3 {
+    display: none;
+}
+
+  #cerrar-modal3 + label {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    z-index: 100;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    background: tomato;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    display: none;
+    transition: all 0.5s;
+  }
+
+  #cerrar-modal3:checked ~ #modal3 {
+    top: -100vh;
+  }
+
+  #cerrar-modal3:checked + label {
+    display: none;
+  }
+
+  #modal4 {
+    background: rgba(0, 0, 0, 0.9);
+    color: whitesmoke;
+    position: fixed;
+    top: -100vh;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    transition: all 0.5s;
+  }
+
+  #modal4 iframe {
+    width: 60%;
+    height: 40%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    font-size: 1.5em;
+    }
+  
+#mostrar-modal4 {
+    display: none;
+  }
+  
+#mostrar-modal4 + label {
+    background: whitesmoke;
+    color: black;
+    cursor: pointer;
+}
+
+#mostrar-modal4 + label:hover {
+    background: rgba(250, 190, 80, 0.486);
+}
+  
+#mostrar-modal4:checked ~ #modal4 {
+    top: 0;
+}
+
+#mostrar-modal4:checked ~ #cerrar-modal4 + label {
+    display: flex;
+    flex-direction: column;
+}
+  
+  #cerrar-modal4 {
+    display: none;
+}
+
+  #cerrar-modal4 + label {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    z-index: 100;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    background: tomato;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    display: none;
+    transition: all 0.5s;
+  }
+
+  #cerrar-modal4:checked ~ #modal4 {
+    top: -100vh;
+  }
+
+  #cerrar-modal4:checked + label {
+    display: none;
+  }
+
+  #modal5 {
+    background: rgba(0, 0, 0, 0.9);
+    color: whitesmoke;
+    position: fixed;
+    top: -100vh;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    transition: all 0.5s;
+  }
+
+  #modal5 iframe {
+    width: 60%;
+    height: 40%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    font-size: 1.5em;
+    }
+  
+#mostrar-modal5 {
+    display: none;
+  }
+  
+#mostrar-modal5 + label {
+    background: whitesmoke;
+    color: black;
+    cursor: pointer;
+}
+
+#mostrar-modal5 + label:hover {
+    background: rgba(250, 190, 80, 0.486);
+}
+  
+#mostrar-modal5:checked ~ #modal5 {
+    top: 0;
+}
+
+#mostrar-modal5:checked ~ #cerrar-modal5 + label {
+    display: flex;
+    flex-direction: column;
+}
+  
+  #cerrar-modal5 {
+    display: none;
+}
+
+  #cerrar-modal5 + label {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    z-index: 100;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    background: tomato;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    display: none;
+    transition: all 0.5s;
+  }
+
+  #cerrar-modal5:checked ~ #modal5 {
+    top: -100vh;
+  }
+
+  #cerrar-modal5:checked + label {
+    display: none;
+  }
+
+  #modalb {
+    background: rgba(0, 0, 0, 0.9);
+    color: whitesmoke;
+    position: fixed;
+    top: -100vh;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    transition: all 0.5s;
+  }
+
+  #modalb iframe {
+    width: 60%;
+    height: 40%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    font-size: 1.5em;
+    }
+  
+#mostrar-modalb {
+    display: none;
+  }
+  
+#mostrar-modalb + label {
+    background: whitesmoke;
+    color: black;
+    cursor: pointer;
+}
+
+#mostrar-modalb + label:hover {
+    background: rgba(250, 190, 80, 0.486);
+}
+  
+#mostrar-modalb:checked ~ #modalb {
+    top: 0;
+}
+
+#mostrar-modalb:checked ~ #cerrar-modalb + label {
+    display: flex;
+    flex-direction: column;
+}
+  
+  #cerrar-modalb {
+    display: none;
+}
+
+  #cerrar-modalb + label {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    z-index: 100;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    background: tomato;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    display: none;
+    transition: all 0.5s;
+  }
+
+  #cerrar-modalb:checked ~ #modalb {
+    top: -100vh;
+  }
+
+  #cerrar-modalb:checked + label {
+    display: none;
+  }
+
+  #modal6 {
+    background: rgba(0, 0, 0, 0.9);
+    color: whitesmoke;
+    position: fixed;
+    top: -100vh;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    transition: all 0.5s;
+  }
+
+  #modal6 iframe {
+    width: 60%;
+    height: 40%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    font-size: 1.5em;
+    }
+  
+#mostrar-modal6 {
+    display: none;
+  }
+  
+#mostrar-modal6 + label {
+    background: whitesmoke;
+    color: black;
+    cursor: pointer;
+}
+
+#mostrar-modal6 + label:hover {
+    background: rgba(250, 190, 80, 0.486);
+}
+  
+#mostrar-modal6:checked ~ #modal6 {
+    top: 0;
+}
+
+#mostrar-modal6:checked ~ #cerrar-modal6 + label {
+    display: flex;
+    flex-direction: column;
+}
+  
+  #cerrar-modal6 {
+    display: none;
+}
+
+  #cerrar-modal6 + label {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    z-index: 100;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    background: tomato;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    display: none;
+    transition: all 0.5s;
+  }
+
+  #cerrar-modal6:checked ~ #modal6 {
+    top: -100vh;
+  }
+
+  #cerrar-modal6:checked + label {
+    display: none;
+  }
+
+  #modal3b {
+    background: rgba(0, 0, 0, 0.9);
+    color: whitesmoke;
+    position: fixed;
+    top: -100vh;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    transition: all 0.5s;
+  }
+
+  #modal3b iframe {
+    width: 60%;
+    height: 40%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    font-size: 1.5em;
+    }
+  
+#mostrar-modal3b {
+    display: none;
+  }
+  
+#mostrar-modal3b + label {
+    background: whitesmoke;
+    color: black;
+    cursor: pointer;
+}
+
+#mostrar-modal3b + label:hover {
+    background: rgba(250, 190, 80, 0.486);
+}
+  
+#mostrar-modal3b:checked ~ #modal3b {
+    top: 0;
+}
+
+#mostrar-modal3b:checked ~ #cerrar-modal3b + label {
+    display: flex;
+    flex-direction: column;
+}
+  
+  #cerrar-modal3b {
+    display: none;
+}
+
+  #cerrar-modal3b + label {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    z-index: 100;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    background: tomato;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    display: none;
+    transition: all 0.5s;
+  }
+
+  #cerrar-modal3b:checked ~ #modal3b {
+    top: -100vh;
+  }
+
+  #cerrar-modal3b:checked + label {
+    display: none;
+  }
+
+  #modal2b {
+    background: rgba(0, 0, 0, 0.9);
+    color: whitesmoke;
+    position: fixed;
+    top: -100vh;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    transition: all 0.5s;
+  }
+
+  #modal2b iframe {
+    width: 60%;
+    height: 40%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    font-size: 1.5em;
+    }
+  
+#mostrar-modal2b {
+    display: none;
+  }
+  
+#mostrar-modal2b + label {
+    background: whitesmoke;
+    color: black;
+    cursor: pointer;
+}
+
+#mostrar-modal2b + label:hover {
+    background: rgba(250, 190, 80, 0.486);
+}
+  
+#mostrar-modal2b:checked ~ #modal2b {
+    top: 0;
+}
+
+#mostrar-modal2b:checked ~ #cerrar-modal2b + label {
+    display: flex;
+    flex-direction: column;
+}
+  
+  #cerrar-modal2b {
+    display: none;
+}
+
+  #cerrar-modal2b + label {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    z-index: 100;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    background: tomato;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    display: none;
+    transition: all 0.5s;
+  }
+
+  #cerrar-modal2b:checked ~ #modal2b {
+    top: -100vh;
+  }
+
+  #cerrar-modal2b:checked + label {
     display: none;
   }
